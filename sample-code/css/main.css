@@ -1,0 +1,161 @@
+/*****BASE STYLES*****/
+
+body {
+	font-family: montserrat, sans-serif;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+}
+/*****GRID*****/
+
+.full-width { /*the floats set the general location of the blocks and not the actual elements themselves*/
+	width: 1200px; /*1240px*/
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px; /*620px*/
+	float: left;
+}
+
+.third-width {
+	width: 400px; /*413*/
+	float: left;
+}
+
+/*****HEADER*****/
+
+header .half-width{
+	height: 110px;
+}
+
+header {
+	height: 110px;
+}
+
+header h1 {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+header h1 span {
+	color: #77a466;
+}
+
+nav { /*this affects the basic location of the nav bar*/
+	float: right;
+	padding-top: 25px
+}
+
+nav ul li { /*this affects the arrangement of the list elements*/
+	display: inline-block;
+	padding-right: 23px; /*this creates the spaces between the items*/
+}
+
+nav ul li a { /*this affects the appearence of the link elements in the list*/
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	color: #77a466;	
+}
+
+/*****ABOUT*****/
+
+#about .full-width{
+	height: 468px;
+}
+
+#about img {
+	margin: 0 auto;
+	border-top: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
+}
+
+#about h2 {
+	font-weight: bold;
+	font-size: 18px;
+	color: #77a466;
+}
+
+#about p {
+	font-size: 16px;
+	padding-right: 20px;
+	width: 1170px;
+}
+
+/*****OPTIONS*****/
+
+#options .full-width{
+	height: 210px;
+	border-top: 2px solid #dedbdc;
+	border-bottom: 2px solid #dedbdc;
+}
+
+/*****MENU*****/
+
+#menu h2 {
+	font-size: 12px;
+	padding-top: 30px;
+}
+
+#menu p{
+	font-size: 16px;
+	color: #77a466;
+	list-style-type: none;
+	line-height: 30px;
+}
+
+/*****REVIEWS*****/
+
+#reviews .third-width {
+	border-left: 2px solid #dedbdc;;
+	border-right: 2px solid #dedbdc;;
+	width: 396px;
+}
+
+#reviews h2 {
+	padding-top: 30px;
+	padding-left: 30px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#reviews p {
+	padding-left: 30px;
+	font-size: 16px;
+	width: 325px;
+}
+
+/*****CONTACT*****/
+
+#contact h3 {
+	font-size: 12px;
+	font-style: bold;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+#contact p {
+	font-size: 16px;
+	padding-left: 30px;
+}
+
+/*****FOOTER*****/
+
+footer .full-width {
+	height: 80px;
+}
+
+footer h2 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 35px;
+}
+
+footer h2 span {
+	color: #89b07a;
+	font-family: Pacifico;
+}
